@@ -4,109 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.75">
     <title>amethyst</title>
+    <link href="styles.css" rel="stylesheet">
     <link href="amcluster.png" rel="icon">
-    <style>
-        body {
-            margin: 0;
-            font-family: Helvetica, sans-serif;
-            font-size: 24px;
-        }
-        #notice {
-            font-size: 12px;
-            padding: 1px 5px 2px 5px;
-            background: #15051d;
-            color: #f1ddff;
-        }
-        #pagetop {
-            background: #15051d;
-            padding: 350px 0 400px 0;
-            text-align: center;
-        }
-        #toptitle {
-            color: #f1ddff;
-            font-size: 60px;
-            text-shadow: 0 0 20px #f1ddff;
-            font-weight: 100;
-        }
-        #pronouns {
-            text-align: center;
-            color: #321340;
-            font-weight: 100;
-            transition: ease-in-out 100ms;
-        }
-        #pronouns:hover {
-            color: #f1ddff;
-            text-shadow: 0 0 12px #f1ddff;
-            transition: ease-in-out 100ms;
-        }
-        #pagetransitionI {
-            background: linear-gradient(#15051d, #f1ddff);
-            height: 300px;
-        }
-        #pagebody {
-            background: #f1ddff;
-            color: #9b76ac;
-            padding: 20px 10% 100px 10%;
-            font-size: 24px;
-        }
-        h1 {
-            font-size: 60px;
-            color: #f1ddff;
-            text-shadow: -2px -2px 5px #fff9, 2px 2px 5px #0004;
-            transition: ease-in-out 100ms;
-        }
-        h1:hover {
-            color: #933bd2;
-            transition: ease-in-out 100ms;
-        }
-        #column {
-            display: inline-block;
-            vertical-align: top;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0 0 0 0;
-        }
-        li {
-            margin-bottom: 30px;
-        }
-        #pagetransitionII {
-            background: linear-gradient(#f1ddff, #9b76ac);
-            height: 300px;
-        }
-        #pagebottom {
-            background: #9b76ac;
-            color: #f1ddff;
-            padding: 20px 10% 100px 10%;
-        }
-        h2 {
-            font-size: 60px;
-            color: #9b76ac;
-            text-shadow: -2px -2px 5px #fff3, 2px 2px 5px #0005;
-            transition: ease-in-out 100ms;
-        }
-        h2:hover {
-            color: #2d014c;
-            transition: ease-in-out 100ms;
-        }
-        #socialicon {
-            background-color: #9b76ac;
-            width: 30px;
-            height: 30px;
-            padding: 8px;
-            margin: 5px;
-            object-fit:scale-down;
-            border-radius: 15px;
-            box-shadow: -2px -2px 5px #fff3, 2px 2px 5px #0005;
-            transition: ease-in-out 100ms;
-        }
-        #socialicon:hover {
-            background-color: #b997c9;
-            transition: ease-in-out 100ms;
-        }
-    </style>
-    <!-- <link href="styles.css" rel="stylesheet"> -->
-    <!-- The stylesheet has been written directly in the HTML instead. -->
 </head>
 <body>
     <div id="notice">
@@ -125,8 +24,8 @@
     <div id="pagetransitionI"></div>
     <div id="pagebody">
         <br>
-        <span id="column">
-            <h1>about me</h1>
+        <h1>about me</h1>
+            <span id="column">
             <ul>
                 <li>aspiring digital artist</li>
                 <li>amateur programmer in Javascript, C, Python, and Scratch</li>
@@ -135,16 +34,18 @@
                 <li>proud Blåhaj owner</li>
             </ul>
         </span>
-        <span id="column" style="margin: 90px 0 0 15%;">
-            <img src="aboutme.png" width="380px" alt="A simple drawing of a joyful-looking, yellow-and-pink kobold furry holding a transgender flag in its mouth.">
+        <span id="column" style="margin: 0 0 0 15%;">
+            <img src="aboutme.png" width="380px" alt="A drawing of a joyful-looking, yellow-and-pink kobold furry holding a transgender flag in its mouth.">
         </span>
         <br>
         <br>
+        <p>
+            I'm an INFP-T (according to some website). I'm also a furry, if that wasn't already obvious. In my free time, I like to disassemble things and learn how they work, which has proven useful in my role on the robotics team. I enjoy computer graphic design as well. My love for creating sometimes causes me to put too much effort into perfecting dumb little projects. 
+        </p>
         <br>
-        I'm an INFP-T (according to some website). I'm also a furry, if that wasn't already obvious. In my free time, I like to disassemble things and learn how they work, which has proven useful in my role on the robotics team. I enjoy computer graphic design as well. My love for creating sometimes causes me to put too much effort into perfecting dumb little projects. 
-        <br>
-        <br>
-        I like cars, computers, coding, videogames, visual art, and music. I dislike strangers, publicity, and writing about myself.
+        <p>
+            I like cars, computers, coding, videogames, visual art, and music. I dislike strangers, publicity, and writing about myself.
+        </p>
     </div>
     <div id="pagetransitionII"></div>
     <div id="pagebottom">
