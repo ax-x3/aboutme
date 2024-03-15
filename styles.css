@@ -1,11 +1,11 @@
-t@media screen and (max-device-width: 480px), screen and (-webkit-min-device-pixel-ratio: 2), screen and (device-width: 768px) {
+@media screen and (max-device-width: 480px), screen and (-webkit-min-device-pixel-ratio: 2), screen and (device-width: 768px) {
     body {-webkit-text-size-adjust:none;}
 }
 
 
 body {
     margin: 0;
-    font-family: Helvetica, sans-serif;
+    font-family: Helvetica Neue, sans-serif;
     font-size: 24px;
 }
 #notice {
@@ -23,7 +23,7 @@ body {
     color: #f1ddff;
     font-size: 60px;
     text-shadow: 0 0 20px #f1ddff;
-    font-weight: lighter;
+    font-weight: 100;
 }
 #pronouns {
     text-align: center;
