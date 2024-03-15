@@ -1,4 +1,4 @@
-@media screen and (max-device-width: 480px), screen and (-webkit-min-device-pixel-ratio: 2), screen and (device-width: 768px) {
+t@media screen and (max-device-width: 480px), screen and (-webkit-min-device-pixel-ratio: 2), screen and (device-width: 768px) {
     body {-webkit-text-size-adjust:none;}
 }
 
@@ -23,7 +23,7 @@ body {
     color: #f1ddff;
     font-size: 60px;
     text-shadow: 0 0 20px #f1ddff;
-    font-weight: 100;
+    font-weight: lighter;
 }
 #pronouns {
     text-align: center;
